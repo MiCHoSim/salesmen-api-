@@ -35,5 +35,5 @@ Profesionálna REST API pre správu obchodníkov. Implementované v Laravel s Po
 
 1. **Naklonuj repozitár**
    ```bash
-   git clone https://github.com/your-username/salesmen-api.git
+   git clone https://github.com/MiCHoSim/salesmen-api-.git
    cd salesmen-api
