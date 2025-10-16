@@ -1,0 +1,17 @@
+parameters:
+    level: 9
+    paths:
+        - app
+        - database/factories
+        - database/seeders
+
+    # Laravel specific
+    universalObjectCratesClasses:
+        - Illuminate\Http\Request
+        - Illuminate\Foundation\Http\FormRequest
+
+    # Bez problematických parametrov
+    reportUnmatchedIgnoredErrors: false
+
+includes:
+    - ./vendor/larastan/larastan/extension.neon
